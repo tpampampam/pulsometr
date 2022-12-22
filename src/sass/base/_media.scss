@@ -1,0 +1,64 @@
+@media (max-width:575px) {
+    .container {
+        max-width: 300px;
+    }
+    .header{
+        flex-direction: column;
+        &__logo{
+            width: 229px;
+        }
+        &__official {
+            font-size: 13px;
+        }
+    }
+    .promo {
+        min-height: 592px;
+        padding-bottom: 56px;
+        &__wrapper {
+            margin-top: 39px;
+        }
+        &__header {
+            text-align: center;
+            font-size: 34px;
+        }
+        &__subheader {
+            display: none;
+        }
+        &__icons {
+            margin-top: 10px;
+            width: 100%;
+        }
+        &__link {
+            display: none;
+        }
+    
+    }
+    .button {
+        margin-top: 10px;
+        &_main {
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+    .advant {
+        padding-top: 37px;
+        &__icons {
+            margin-top: 0;
+            flex-direction: column;
+            width: 100%;
+        }
+        &__icon{
+            margin-top: 20px;
+            span {
+                margin-top: 20px;
+                margin-bottom: 14px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 28px;
+    }
+    
+    
+}

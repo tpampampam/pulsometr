@@ -1,0 +1,35 @@
+.advant {
+    min-height: 473px;
+    padding: 73px 0 65px 0;
+    background: #F6F6F6;
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width:275px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: #0D0D0D;
+        text-align: center;
+        
+        span {
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+        a {
+            color:#FF0000;
+            
+        }
+
+    }
+    
+}
