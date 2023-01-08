@@ -48,3 +48,4 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: File to import not found or unreadable: base/variables.\A        Load path: /Users/tonystark/Desktop/all prjcts/pulsometr/src/sass/blocks\A         on line 1 of /Users/tonystark/Desktop/all prjcts/pulsometr/src/sass/blocks/style.scss\A \A 1: @import 'base/variables';\A 2: * {\A 3:     font-family: 'Museo Sans Cyrl', sans-serif;\A 4: }"; }
+
